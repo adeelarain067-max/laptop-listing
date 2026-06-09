@@ -6,7 +6,7 @@ const laptops = [
     name: "ASUS ROG Zephyrus G16",
     model: "ROG-G16-2024",
     price: 2499,
-    image: "https://dlcdnwebimgs.asus.com/gain/b5bae2ee-8a3b-411a-b7f3-c9e8c4765a26/w800",
+    image: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80",
     condition: "Like New",
     specs: [
       { label: "Processor", value: "Intel Core i9-14900HX" },
@@ -24,7 +24,7 @@ const laptops = [
     name: "Apple MacBook Pro 14",
     model: "MBP-14-M3PRO",
     price: 1999,
-    image: "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-m3-pro-max-spaceb-select-202310?wid=800&hei=600&fmt=jpeg&qlt=90",
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
     condition: "Used",
     specs: [
       { label: "Processor", value: "Apple M3 Pro" },
@@ -42,7 +42,7 @@ const laptops = [
     name: "Dell XPS 15",
     model: "XPS-15-9530",
     price: 1799,
-    image: "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-15-9530/media-gallery/black/notebook-xps-15-9530-black-gallery-1.psd?fmt=jpg&wid=800",
+    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
     condition: "Like New",
     specs: [
       { label: "Processor", value: "Intel Core i7-13700H" },
@@ -60,7 +60,7 @@ const laptops = [
     name: "Lenovo ThinkPad X1 Carbon",
     model: "X1C-GEN11",
     price: 1299,
-    image:"https://www.lenovo.com/medias/lenovo-laptop-thinkpad-x1-carbon-gen11-14-hero.png?context=bWFzdGVyfHJvb3R8MjMwNzAxfGltYWdlL3BuZ3w&w=800",
+    image: "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&q=80",
     condition: "Used",
     specs: [
       { label: "Processor", value: "Intel Core i7-1365U" },
@@ -78,7 +78,7 @@ const laptops = [
     name: "HP Spectre x360",
     model: "SPECTRE-X360-14",
     price: 1499,
-    image: "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/knowledgebase/c08292444.png",
+    image: "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=800&q=80",
     condition: "Like New",
     specs: [
       { label: "Processor", value: "Intel Core i7-1355U" },
@@ -91,24 +91,7 @@ const laptops = [
     ],
     seller: { name: "Ayesha Noor", location: "Karachi, Clifton", rating: 5.0, reviews: 210, responseTime: "Replies in ~10 min", member: "2018" },
   },
-  {
-    id: 6,
-    name: "Microsoft Surface Laptop 5",
-    model: "SURFACE-L5-15",
-    price: 1199,
-    image: "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW13hZo?ver=2d3a&w=800",
-    condition: "Used",
-    specs: [
-      { label: "Processor", value: "Intel Core i5-1245U" },
-      { label: "RAM", value: "8GB LPDDR5x" },
-      { label: "Storage", value: "256GB SSD" },
-      { label: "Graphics", value: "Intel Iris Xe" },
-      { label: "Display", value: '15" PixelSense Touch' },
-      { label: "Battery", value: "58Wh, up to 18 hrs" },
-      { label: "Condition", value: "Used - Fair" },
-    ],
-    seller: { name: "Hamza Sheikh", location: "Lahore, DHA", rating: 4.5, reviews: 41, responseTime: "Replies in ~45 min", member: "2021" },
-  },
+ 
 ];
 
 
